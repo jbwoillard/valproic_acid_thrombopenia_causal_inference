@@ -54,7 +54,6 @@ MIMIC_ROOT <- "/path/to/your/mimic-iv-3.1"
 │       ├── run_concentration_dose_response.R    # Continuous dose-response (splines)
 │       ├── run_concentration_hte.R              # Concentration-based HTE
 │       └── run_concentration_timing.R           # Trough timing reclassification
-├── analysis.qmd                         # Quarto manuscript (run last)
 ├── run_all.R                            # Master pipeline script
 ├── .gitignore
 └── README.md
