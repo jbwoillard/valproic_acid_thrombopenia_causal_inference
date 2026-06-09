@@ -1,0 +1,49 @@
+# =============================================================================
+# .gitignore — VPA MIMIC-IV Target Trial Emulation
+# MIMIC-IV data and all derived outputs are NOT versioned.
+# =============================================================================
+
+# --- MIMIC-IV source data (never share) ---
+mimic-iv*/
+data_raw/
+data_final/
+data_intermediate/
+*.parquet
+*.feather
+*.rds
+
+# --- Derived outputs (regenerate from scripts) ---
+outputs/tables/
+outputs/figures/
+outputs/diagnostics/
+outputs/models/
+outputs/logs/
+
+# --- Rendered reports ---
+*.html
+*.pdf
+reports/final_report.html
+analysis.html
+
+# --- CSV results (regenerated) ---
+outputs/
+
+# --- R environment ---
+.Rproj.user/
+.Rhistory
+.RData
+*.Rproj
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Temporary / editor ---
+*.tmp
+*.bak
+*~
+*.swp
+.venv/
+
+# --- Archives ---
+archive/
