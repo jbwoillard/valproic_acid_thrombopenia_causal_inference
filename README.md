@@ -94,12 +94,6 @@ source("R/analysis/run_hte_grf.R")
 # ... sensitivity and concentration scripts as needed
 ```
 
-Render the manuscript (requires [Quarto](https://quarto.org)):
-
-```bash
-quarto render analysis.qmd
-```
-
 ---
 
 ## Expected outputs
